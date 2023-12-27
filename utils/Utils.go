@@ -4,20 +4,7 @@
  * Author: wangfan8@xiaomi.com
  */
 
-package utils
-
-import (
-	"bufio"
-	"errors"
-	"fmt"
-	"net"
-	"os"
-	"regexp"
-	"strings"
-	"sync/atomic"
-	"time"
-
-	"github.com/XiaoMi/talos-sdk-golang/thrift/auth"
+k-golang/thrift/auth"
 	"github.com/XiaoMi/talos-sdk-golang/thrift/common"
 	"github.com/XiaoMi/talos-sdk-golang/thrift/message"
 	"github.com/XiaoMi/talos-sdk-golang/thrift/thrift"
