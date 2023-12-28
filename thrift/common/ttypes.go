@@ -9,15 +9,6 @@ import (
 
 	"github.com/XiaoMi/talos-sdk-golang/thrift/thrift"
 )
-
-// (needed to ensure safety because of naive import list construction.)
-var _ = thrift.ZERO
-var _ = fmt.Printf
-var _ = bytes.Equal
-
-var GoUnusedProtection__ int
-
-//HTTP状态码列表，用于传输层，签名错误等
 type HttpStatusCode int64
 
 const (
