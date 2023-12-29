@@ -2,7 +2,37 @@
  * Copyright 2018, Xiaomi.
  * All rights reserved.
  * Author: wangfan8@xiaomi.com
+ */ */
+
+package consumer
+
+import (
+	"strconv"
+	"sync/atomic"
+	"time"
+
+	"github.com/XiaoMi/talos-sdk-golang/thrift/consumer"
+	"github.com/XiaoMi/talos-sdk-golang/thrift/message"
+	"github.com/XiaoMi/talos-sdk-golang/thrift/topic"
+	"github.com/XiaoMi/talos-sdk-golang/utils"
+	"github.com/sirupsen/logrus"
+)
  */
+
+package consumer
+
+import (
+	"strconv"
+	"sync/atomic"
+	"time"
+
+	"github.com/XiaoMi/talos-sdk-golang/thrift/consumer"
+	"github.com/XiaoMi/talos-sdk-golang/thrift/message"
+	"github.com/XiaoMi/talos-sdk-golang/thrift/topic"
+	"github.com/XiaoMi/talos-sdk-golang/utils"
+	"github.com/sirupsen/logrus"
+)
+
 
 package consumer
 
