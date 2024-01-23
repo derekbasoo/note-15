@@ -2,16 +2,7 @@
  * Copyright 2018, Xiaomi.
  * All rights reserved.
  * Author: wangfan8@xiaomi.com
- */
-
-package producer
-
-import (
-	"container/list"
-	"sync"
-	"time"
-
-	"github.com/XiaoMi/talos-sdk-golang/thrift/message"
+g/thrift/message"
 	"github.com/XiaoMi/talos-sdk-golang/utils"
 	"github.com/sirupsen/logrus"
 )
